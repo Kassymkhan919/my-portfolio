@@ -12,6 +12,7 @@ import Home from './components/home';
 import Timeline from './components/timeline';
 import CardApp from './components/cardApp';
 import ContactPage from './components/contact';
+import TwitterTimeline from './components/twitterTimeline';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
             <WorkExperience />
             <Education />
             <Projects />
+            <TwitterTimeline></TwitterTimeline>
             <ContactPage />
             {/* <Skills /> */}
             {/* <Timeline /> */}

@@ -42,6 +42,10 @@ export default class Sidebar extends Component {
                       <li>
                         <a href="#" data-nav-section="contact">Contact</a> 
                       </li>
+
+                      <li>
+                        <a href="#" data-nav-section="twitter-timeline">Twitter Timeline</a>
+                      </li>
                       
                       {/* <li>
                         <a href="#" data-nav-section="skills">Skills</a>

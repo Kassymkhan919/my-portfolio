@@ -5,7 +5,7 @@ import useScript from '../hooks/useScript'
 const TwitterTimeline = props => {
     useScript('https://platform.twitter.com/widgets.js');
     return(
-        <div className="twitter-timeline">
+        <div className="twitter-timeline" data-section="twitter-timeline">
         <Card>
         <a class="twitter-timeline" 
         data-theme="light" 

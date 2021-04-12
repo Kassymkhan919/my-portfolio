@@ -68,22 +68,22 @@ export default class Sidebar extends Component {
                 <div className="colorlib-footer">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/kasymhan.ermekov.1/">
                         <i className="icon-facebook2" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://twitter.com/kasymkhan_bkb">
                         <i className="icon-twitter2" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.instagram.com/caspiankas/">
                         <i className="icon-instagram" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/in/kassymkhanb/">
                         <i className="icon-linkedin2" />
                       </a>
                     </li>

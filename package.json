@@ -2,7 +2,7 @@
   "name": "my-portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Kassymkhan919.github.io/me",
+  "homepage": "https://Kassymkhan919.github.io/my-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",

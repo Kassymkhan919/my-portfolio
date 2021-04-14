@@ -13,6 +13,7 @@ import Timeline from './components/timeline';
 import CardApp from './components/cardApp';
 import ContactPage from './components/contact';
 import TwitterTimeline from './components/twitterTimeline';
+import Kasym from './kasym';
 
 function App() {
   return (
@@ -41,12 +42,13 @@ function App() {
           <Sidebar />
           <div id="colorlib-main">
             {/* <CardApp /> */}
+            {/* <Kasym /> */}
             <Introduction />
             <About /> 
             <WorkExperience />
             <Education />
             <Projects />
-            <TwitterTimeline></TwitterTimeline>
+            <TwitterTimeline />
             <ContactPage />
             {/* <Skills /> */}
             {/* <Timeline /> */}

@@ -5,46 +5,47 @@ export default class Sidebar extends Component {
         return (
           <div>
             <div>
-              <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
-              <aside id="colorlib-aside" role="complementary" className="border js-fullheight">
+              <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" ><i /></nav>
+              <div id="colorlib-aside" role="complementary" className="border js-fullheight">
                 <div className="text-center">
                   <div className="author-img" style={{backgroundImage: 'url(images/about.jpg)'}} />
                   <h1 id="colorlib-logo">
                     <a href="index.html">Kassymkhan Bekbolatov</a>
                     <span className="email">
-                      <a>
+                      <p>
                       <i className="icon-mail"></i>
                       kbekbola@sfu.ca
-                      </a>
+                      </p>
                     </span>
                   </h1>
                   <span className="position">
-                    <a href="#">iOS Developer</a> in Vancouver
+                    {/* <a href="#">iOS Developer</a> in Vancouver  */}
+                    iOS Developer in Vancouver
                   </span>
                 </div>
                 <nav id="colorlib-main-menu" role="navigation" className="navbar">
                   <div id="navbar" className="collapse">
                     <ul>
                       <li className="active">
-                        <a href="#" data-nav-section="home">Home</a>
+                        <a  data-nav-section="home">Home</a>
                       </li>
                       <li>
-                        <a href="#" data-nav-section="about">About</a>
+                        <a  data-nav-section="about">About</a>
                       </li>
                       <li>
-                        <a href="#" data-nav-section="experience">Experience</a>
+                        <a  data-nav-section="experience">Experience</a>
                       </li>
                       
                       <li>
-                        <a href="#" data-nav-section="education">Education</a>
+                        <a data-nav-section="education">Education</a>
                       </li>
 
                       <li>
-                        <a href="#" data-nav-section="contact">Contact</a> 
+                        <a data-nav-section="contact">Contact</a> 
                       </li>
 
                       <li>
-                        <a href="#" data-nav-section="twitter-timeline">Twitter Timeline</a>
+                        <a data-nav-section="twitter-timeline">Twitter Timeline</a>
                       </li>
                       
                       {/* <li>
@@ -89,7 +90,7 @@ export default class Sidebar extends Component {
                     </li>
                   </ul>
                 </div>
-              </aside>
+              </div>
               </div>
           </div>
             

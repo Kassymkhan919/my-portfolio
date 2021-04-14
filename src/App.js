@@ -1,19 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Sidebar from './components/sidebar'
 import Introduction from './components/introduction';
 import About from './components/about';
 import Projects from './components/projects';
-import Pont from './components/pont'
-import Skills from './components/skills'
 import Education from './components/education'
 import WorkExperience from './components/workExperience'
-import Home from './components/home';
-import Timeline from './components/timeline';
-import CardApp from './components/cardApp';
 import ContactPage from './components/contact';
 import TwitterTimeline from './components/twitterTimeline';
-import Kasym from './kasym';
 
 function App() {
   return (

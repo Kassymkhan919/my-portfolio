@@ -1,4 +1,4 @@
-import React, {Component, useState, useReducer} from 'react'
+import React, { useState, useReducer} from 'react'
 
 const formReducer = (state, event) => {
     return{
